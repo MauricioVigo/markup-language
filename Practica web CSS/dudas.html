@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>dudas</title>
+	<link rel="stylesheet" href="./CSS pagina web.css">
+</head>
+<body>
+    <div id="top">
+        <nav class="menu">
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="procesadores.html">Procesadores</a>
+                    <ul class="sublist">
+                        <li><a href="intel.html">Intel</a></li>
+                        <li><a href="amd.html">AMD</a></li>
+                    </ul>
+                </li>
+                <li><a href="graficas.html">Graficas</a>
+                    <ul class="sublist2">
+                        <li><a href="nvidia.html">Nvidia</a></li>
+                        <li><a href="amd.html">AMD</a></li>
+                    </ul>
+                </li>
+                <li><a href="ram.html">Ram</a></li>
+                <li><a href="dudas.html">Dudas</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="middle">
+        <div class="container">
+            <form action="action_page.php">
+              <div class="row">
+                <div class="col-25">
+                  <label for="fname">Nombre</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="fname" placeholder="Tu nombre..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">Apellido</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="lname" placeholder="Tu apellido..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="country">De donde nos escribes</label>
+                </div>
+                <div class="col-75">
+                  <select id="country">
+                    <option value="australia">España</option>
+                    <option value="canada">Union Europea</option>
+                    <option value="usa">Otros</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="subject">Consulta</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="subject" placeholder="Indica tu consulta.." style="height:200px"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <input type="submit" value="Submit">
+              </div>
+            </form>
+          </div>    
+    </div>
+    <div id="left">
+        <div class="lefticon">
+            <a href="https://web.whatsapp.com/" target=" "><img src="./IMG/whats.png" alt="whatsapp"></a>
+		<a href="https://twitter.com/?lang=es" target=" "><img src="./IMG/twe.png" alt=""></a>
+		<a href="https://es-es.facebook.com/" target=" "><img src="./IMG/face.png" alt=""></a>
+		<a href="https://www.instagram.com/" target=" "><img src="./IMG/insta.png" alt=""></a>
+		<a href="https://www.messenger.com" target=" "><img src="./IMG/mes.png" alt=""></a>
+            </div>
+
+    </div>
+    <div id="bottom">
+	Realizado por Mauricio Vigo Lavalle
+    </div>
+    
+</body>
+</html>
