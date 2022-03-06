@@ -1,0 +1,154 @@
+@font-face {
+    font-family:fredoka ;
+    src: url(./Font/Fredoka-VariableFont_wdth\,wght.ttf);
+}
+*{
+    font-family: fredoka,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    flex-direction:row;
+    justify-content: right;
+    width: 90%;
+    font-size: 20pt; 
+    margin-top: 1em;
+    
+}
+.nombre{
+    margin: 1em;
+    margin-right: 20em;
+    padding: 1em; 
+}
+.nav{
+    margin: 1em;
+    margin-left: 2em;
+    padding: 1em;
+    padding-bottom: 0.5em;
+    border-bottom: 0.1em solid black;
+    height:fit-content;
+}
+/*Primera parte */
+.p1{
+    width: 100%;
+    display: flex;
+    
+}
+.imgb{
+    position: relative;
+    
+    width: 30%;
+    margin: 1em;
+    margin-left: 5em;
+    margin-top: 5em;
+    padding: 1em;
+    float: left;
+}
+.img{
+    position: relative;
+    z-index: 2;
+    margin: 1em;
+    padding: 1em;
+    max-width: 100%;
+    height: auto; 
+}
+img{
+    max-width: 100%;
+    min-width: 50%;
+    height: auto; 
+}
+.bgimg{
+    background-color: orange;
+    width: 500px;
+    height: 570px;
+    position: absolute;
+    bottom: 0.5em;
+    left: 8em;
+    z-index:1;
+    object-fit: contain;
+}
+
+.intro{
+    display: grid;   
+    grid-template-areas: 
+    "header header header header"
+    "block block block block";
+    grid-auto-columns:minmax(5em,auto);
+    grid-auto-rows: minmax(10em,auto);
+    width: 50%;
+    margin: auto; 
+}
+.intro h2{
+    grid-area: header;
+    text-align: center;
+    padding: 0.1em;
+    width: 50%;
+    font-size: 60pt;
+    color: blue;  
+}
+.intro p{  
+    text-align: center;
+    padding-top: 1.7em;
+    font-size: 18pt; 
+}
+.r{
+    background-color:rgba(255, 55, 55, 0.979);
+    border-radius: 1em;
+}
+.b{
+    background-color: rgb(32, 97, 236);
+    border-radius: 1em;
+}
+.o{
+    background-color: rgb(255, 174, 0);
+    border-radius: 1em;
+}
+.g{
+    background-color: green;
+    border-radius: 1em;
+}
+    
+
+
+/*Segunda parte*/
+.p2{
+    background-color: rgb(16, 177, 177);
+    overflow: auto;
+    border-radius: 1em;
+}
+.p2 h1{
+    width: 50%;
+    text-align: right;
+    color: white;
+    padding: 0.2em;
+    font-size: 25pt;
+}
+.hr{
+    width: 20;
+}
+.hr hr{
+    float: left;
+    width: 15%;
+    border-top: 0.5em rgb(255, 255, 255) solid;
+    border-radius: 20px;
+    padding: 0;
+    margin: 1em;
+    margin-left: 5em; 
+}
+.dp2{
+    float: right;
+    width: 70%;
+    margin-bottom: 4em;
+    padding: 2em;
+    font-size: 18pt;
+    color: white;
+    
+
+}
+
+.aboutus{
+    display: grid;
+}
